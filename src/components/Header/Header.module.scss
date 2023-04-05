@@ -18,8 +18,10 @@
             font-size: 1.5rem;
             font-weight: 500;
         }
+        
 
         .menu {
+            
 
             @media (max-width: $sm),
             (max-width: $md) {
@@ -60,7 +62,7 @@
                     color: $secondary;
                 }
             }
-
+                    
             .phone {
                 gap: 1.2rem;
                 flex-wrap: wrap;

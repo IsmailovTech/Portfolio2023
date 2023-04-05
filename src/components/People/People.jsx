@@ -7,28 +7,26 @@ import { footerVariants, staggerChildren, textVariant, textVariant2 } from "../.
 const People = () => {
   return (
     <motion.section
-    variants={staggerChildren}
-    initial="hidden"
-    whileInView="show"
-    viewport={{ once: false, amount: 0.25 }}
-    section className={`paddings ${css.wrapper}`}>
-
+      variants={staggerChildren}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      section
+      className={`paddings ${css.wrapper}`}
+    >
       <a className="anchor" id="people"></a>
 
       <motion.div
-      variants={footerVariants}
-      className={`yPaddings innerWidth ${css.container}`}>
-
-
+        variants={footerVariants}
+        className={`yPaddings innerWidth ${css.container}`}
+      >
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">People talk about us</span>
+          <span className="primaryText">Mijozlar fikri men haqimda</span>
           <p style={{ marginTop: "2rem" }}>
-            I got a job that was in accordance with the salary and field of work
+            O'z soxasining ustalari va o'z biznesini rivojlantirish uchun
           </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          <p>men bilan shartnoma qilgan mijozlar</p>
         </div>
-
-
 
         <div className={`yPaddings ${css.comments}`}>
           {/* to use slider , we have to inlcude css in index.html head */}
@@ -48,10 +46,7 @@ const People = () => {
             })}
           </Slider>
         </div>
-
-
       </motion.div>
-
     </motion.section>
   );
 };

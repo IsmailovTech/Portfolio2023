@@ -1,121 +1,145 @@
-import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
+import { HiOutlineDesktopComputer } from 'react-icons/hi'
+import { CiMobile1 } from 'react-icons/ci'
+import { MdWorkspacesOutline } from 'react-icons/md'
+import { FormattedMessage } from 'react-intl'
+
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    nameUZ: 'Grafik Dizayn',
+    nameEN: 'Graphic Design',
+    projectsUZ: 'SMM Dizayn',
+    projectsEN: 'SMM Design',
     icon: HiOutlineDesktopComputer,
-    bg: "#286F6C",
+    bg: '#286F6C',
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    nameUZ: 'Flayer Dizayn',
+    nameEN: 'Flayer Design',
+    projectsUZ: 'Roll up dizayn',
+    projectsEN: 'Roll up Design',
     icon: CiMobile1,
-    bg: "#EEC048",
+    bg: '#EEC048',
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    nameUZ: 'Billboard Dizayn',
+    nameEN: 'Billboard Design',
+    projectsUZ: 'Brochure Dizayn',
+    projectsEN: 'Brochure Design',
     icon: MdWorkspacesOutline,
-    bg: "#F26440",
+    bg: '#F26440',
   },
-];
+  {
+    nameUZ: 'Animation Logo',
+    nameEN: 'Animation Logo',
+    projectsUZ: 'Photo Slideshow ',
+    projectsEN: 'Photo Slideshow ',
+    icon: MdWorkspacesOutline,
+    bg: '#F26440',
+  },
+]
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
-];
+  {
+    quoteUZ:
+      "Men sizga muammo hal qilishda yordam beraman , shaxsiy beznisingiz rivojlantirish uchun qo'llab quvvatlayman",
+    quoteEN:
+      'I can help you to solve the problem , I will support you for developing your own business',
+  },
+  {
+    quoteUZ: 'Sifatli dizayn albatta tajribali dizayner talab qiladi',
+    quoteEN: 'Quality design certainly requires an experienced designer',
+  },
+]
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: 'IT park , Navoiy filiali',
+    tenure: 'Jan 2023 - hozirgacha',
+    role: 'Grafik dizayner',
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "O'quvchilarga grafik dizaynerlik soxasi bo'yicha bilimlar berish va IT Park uchun dizayn ishlarni bajarish",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: 'Malika Education',
+    tenure: 'Jan 2021 - hozirgacha',
+    role: 'Grafik dizayner',
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "O'quv markaz uchun har xil turdagi grafik dizayn ishlari va SMM postlar tayyorlash",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: 'IT Park, Konimex filiali',
+    tenure: 'Aug 2021 - Sep 2023',
+    role: 'Ish boshqaruvchi, Grafik dizayner',
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Filialni to'g'ri strukturada boshqarish hamda Grafik dizayn yo'nalishi bo'yicha o'quvchilarga ta'lim berish",
   },
-];
+]
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Fazliddin Ismoilov',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people2.jpg',
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Fayzulla Xujaqulov',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people1.jpg',
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Abduhamid Xujaqulov',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people3.jpg',
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Hojimurod Fayzullayev',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people4.jpg',
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Abduhamid Xujaqulov',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people3.jpg',
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Fazliddin Ismoilov',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people2.jpg',
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Abduhamid Xujaqulov',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people3.jpg',
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Hojimurod Fayzullayev',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people4.jpg',
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: 'Fayzulla Xujaqulov',
+    post: 'Creative Manager',
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
+    img: './people1.jpg',
   },
-];
+]
 
 export const sliderSettings = {
   dots: true,
@@ -153,4 +177,4 @@ export const sliderSettings = {
       },
     },
   ],
-};
+}
