@@ -3,6 +3,7 @@ import { comments, sliderSettings } from "../../utils/data";
 import css from "./People.module.scss";
 import Slider from "react-slick";
 import {motion} from 'framer-motion'
+import { FormattedMessage } from "react-intl";
 import { footerVariants, staggerChildren, textVariant, textVariant2 } from "../../utils/motion";
 const People = () => {
   return (
@@ -21,11 +22,16 @@ const People = () => {
         className={`yPaddings innerWidth ${css.container}`}
       >
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">Mijozlar fikri men haqimda</span>
+          <span className="primaryText">
+            {" "}
+            <FormattedMessage id="opinion" />
+          </span>
           <p style={{ marginTop: "2rem" }}>
-            O'z soxasining ustalari va o'z biznesini rivojlantirish uchun
+            <FormattedMessage id="opinion2" />
           </p>
-          <p>men bilan shartnoma qilgan mijozlar</p>
+          <p>
+            <FormattedMessage id="opinion3" />
+          </p>
         </div>
 
         <div className={`yPaddings ${css.comments}`}>

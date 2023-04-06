@@ -12,6 +12,9 @@ const messages = {
     certify2: "GRAFIK DIZAYNER",
     year: "Yil",
     graphic: "Grafik dizayn",
+    opinion: "Mijozlar fikri men haqimda",
+    opinion2: "O'z soxasining ustalari va o'z biznesini rivojlantirish uchun",
+    opinion3: "men bilan shartnoma qilgan mijozlar",
   },
   en: {
     language: "EN",
@@ -26,6 +29,9 @@ const messages = {
     certify2: "GRAPHIC DESIGNER",
     year: "Years",
     graphic: "Graphic Design",
+    opinion: "Clients feedback about me",
+    opinion2: "Masters of their field and to develop their own business",
+    opinion3: "clients who have signed a contract with me",
   },
 };
 

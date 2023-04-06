@@ -36,9 +36,11 @@ const Portfolio = ({ locale }) => {
                 : "Perfect solution for digital experience"}
             </p>
           </div>
-          <span className="secondaryText">
-            {locale === "uz" ? "Ko'proq ishlarimni ko'rish" : "More projects"}
-          </span>
+          <a href="https://t.me/isabdimalik">
+            <span className="secondaryText">
+              {locale === "uz" ? "Ko'proq ishlarimni ko'rish" : "More projects"}
+            </span>
+          </a>
         </motion.div>
 
         <div className={`flexCenter ${css.showCase}`}>
@@ -48,13 +50,28 @@ const Portfolio = ({ locale }) => {
             alt="project"
           />
           <motion.img
+            variants={fadeIn("up", "tween", 0.9, 0.6)}
+            src="./TURIZM.jpg"
+            alt="project"
+          />
+          <motion.img
             variants={fadeIn("up", "tween", 0.7, 0.6)}
             src="./sugurta.jpg"
             alt="project"
           />
           <motion.img
+            variants={fadeIn("up", "tween", 0.5, 0.6)}
+            src="./vizitka.jpg"
+            alt="project"
+          />
+          <motion.img
+            variants={fadeIn("up", "tween", 0.7, 0.6)}
+            src="./fl.jpg"
+            alt="project"
+          />
+          <motion.img
             variants={fadeIn("up", "tween", 0.9, 0.6)}
-            src="./TURIZM.jpg"
+            src="./redeye.jpg"
             alt="project"
           />
         </div>

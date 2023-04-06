@@ -76,68 +76,35 @@ export const workExp = [
 ]
 
 export const comments = [
+
+
   {
-    name: 'Fazliddin Ismoilov',
-    post: 'Creative Manager',
+    name: 'Jack',
+    post: 'CEO',
     comment:
       "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
-    img: './people2.jpg',
+    img: './client2.jpg',
+  },
+  {
+    name: 'Albert',
+    post: 'Creative Manager',
+    comment:
+      "Abdumalik ajoyib talan egasi tvasiya qilaman sizga",
+    img: './client.jpg',
   },
   {
     name: 'Fayzulla Xujaqulov',
-    post: 'Creative Manager',
+    post: 'IT PARK director',
     comment:
       "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
     img: './people1.jpg',
   },
   {
-    name: 'Abduhamid Xujaqulov',
+    name: 'Aiwa',
     post: 'Creative Manager',
     comment:
       "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
-    img: './people3.jpg',
-  },
-  {
-    name: 'Hojimurod Fayzullayev',
-    post: 'Creative Manager',
-    comment:
-      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
-    img: './people4.jpg',
-  },
-  {
-    name: 'Abduhamid Xujaqulov',
-    post: 'Creative Manager',
-    comment:
-      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
-    img: './people3.jpg',
-  },
-  {
-    name: 'Fazliddin Ismoilov',
-    post: 'Creative Manager',
-    comment:
-      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
-    img: './people2.jpg',
-  },
-  {
-    name: 'Abduhamid Xujaqulov',
-    post: 'Creative Manager',
-    comment:
-      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
-    img: './people3.jpg',
-  },
-  {
-    name: 'Hojimurod Fayzullayev',
-    post: 'Creative Manager',
-    comment:
-      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
-    img: './people4.jpg',
-  },
-  {
-    name: 'Fayzulla Xujaqulov',
-    post: 'Creative Manager',
-    comment:
-      "Abdumalik men birga ishlagan xodimlar orasida uzining tajribasi va kreativligi bilan ajralib turadi va doim o'z maslaxatlarini bergan",
-    img: './people1.jpg',
+    img: './client3.jpg',
   },
 ]
 

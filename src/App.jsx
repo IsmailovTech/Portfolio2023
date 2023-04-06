@@ -28,7 +28,7 @@ const App = () => {
         <Portfolio locale={locale} />
         <People />
         <Work />
-        <Footer />
+        <Footer locale={locale} />
       </div>
     </IntlProvider>
   );

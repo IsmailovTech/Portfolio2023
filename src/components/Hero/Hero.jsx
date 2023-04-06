@@ -39,7 +39,7 @@ const Hero = () => {
         >
           <motion.img
             variants={slideIn("up", "tween", 0.5, 1.3)}
-            src="./person.webp"
+            src="./person1.png"
             alt=""
           />
         </motion.div>
