@@ -33,6 +33,7 @@ const Footer = ({ locale }) => {
               {locale === "uz" ? "Ma'lumotlar" : "Information"}
             </span>
             <p>Navoi Islom Karimov street, Uzbekistan</p>
+            {/* <p>Navoi Islom Karimov street, Uzbekistan</p> */}
           </div>
           <ul className={css.menu}>
             <li>{locale === "uz" ? "Xizmatlar" : "Services"}</li>
